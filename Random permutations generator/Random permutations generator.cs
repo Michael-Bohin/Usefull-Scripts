@@ -7,15 +7,13 @@ namespace Random_permutations_generator
 {
     class Generator {
         Random rand = new Random();
-        int int_Line_Count = 10;
-        int int_Numbers_Per_Line = 900;
-        int int_Digits_Per_Number = 6;
+        int int_Line_Count = 8;
+        int int_Numbers_Per_Line = 10_000;
+        int int_Digits_Per_Number = 5;
 
-        int string_Line_Count = 10;
-        int string_Words_Per_Line = 500;
-        int string_Characters_Per_Word = 12;
-
-
+        int string_Line_Count = 8;
+        int string_Words_Per_Line = 10_000;
+        int string_Characters_Per_Word = 8;
 
         public Generator() { }
 
